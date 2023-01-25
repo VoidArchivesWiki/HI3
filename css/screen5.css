@@ -179,6 +179,17 @@ blockquote span {
   line-height: normal;  
 }
 
+/***************************************************
+  Header Icon
+ ***************************************************/
+ 
+.icon {
+    background: url(../images/icon.png);
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
 
 /** Played with the top banner menu "width" here, 
 5 items at 10% = half page width  **/
