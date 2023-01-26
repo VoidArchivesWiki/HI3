@@ -370,7 +370,6 @@ blockquote span {
 a.fullAhead {
   float: left;
   width: 256px;
-  height: 256px;  
   max-width: 100%;
   height: auto;
   margin-right: 10px;
