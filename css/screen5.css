@@ -370,8 +370,7 @@ blockquote span {
 a.fullAhead {
   float: left;
   width: 256px;
-  max-width: 100%;
-  height: auto;
+  height: 256px;  
   margin-right: 10px;
   background: url(../images/logo_honkai.gif) no-repeat 0 0;
 }
