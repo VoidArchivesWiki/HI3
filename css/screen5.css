@@ -369,14 +369,14 @@ blockquote span {
 
 a.fullAhead {
   float: left;
-  width: 512px;
-  height: 512px;  
+  width: 256px;
+  height: 256px;  
   margin-right: 10px;
   background: url(../images/logo_fullahead.gif) no-repeat 0 0;
 }
 
 a:hover.fullAhead  {
-  background-position: -512px 0;
+  background-position: -256px 0;
 }
 
 
