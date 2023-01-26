@@ -369,14 +369,14 @@ blockquote span {
 
 a.fullAhead {
   float: left;
-  width: 256px;
-  height: 256px;  
+  width: 128px;
+  height: 128px;  
   margin-right: 10px;
   background: url(../images/logo_honkai.gif) no-repeat 0 0;
 }
 
 a:hover.fullAhead  {
-  background-position: -256px 0;
+  background-position: -128px 0;
 }
 
 
