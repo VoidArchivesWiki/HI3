@@ -371,8 +371,10 @@ a.fullAhead {
   float: left;
   width: 256px;
   height: 256px;  
+  max-width: 100%;
+  height: auto;
   margin-right: 10px;
-  background: url(../images/logo_fullahead.gif) no-repeat 0 0;
+  background: url(../images/logo_honkai.gif) no-repeat 0 0;
 }
 
 a:hover.fullAhead  {
