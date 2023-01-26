@@ -98,24 +98,24 @@ h1 {
   font: 700 1em verdana, sans-serif;
   text-transform: uppercase;
   color: #7BD32C;
-  background: #000000 url(../images/rounded_tr.gif) no-repeat top right;
+  background: #000000 no-repeat top right;
 }
 
 h1 span {
   display: block;
   padding: 2px;
-  background: url(../images/rounded_br.gif) no-repeat bottom right;
+  background: #000000 no-repeat bottom right;
 }
 
 #sideBar h1 {
   text-align: right;
-  background: #000000 url(../images/rounded_tl.gif) no-repeat top left;
+  background: #000000 no-repeat top left;
 }
 
 #sideBar h1 span {
   display: block;
   padding: 2px;
-  background: url(../images/rounded_bl.gif) no-repeat bottom left;
+  background: #000000 no-repeat bottom left;
 }
 
 
@@ -137,13 +137,13 @@ h1 span {
 
 blockquote {  
   margin: 0;
-  background: #686868 url(../images/rounded_tr.gif) no-repeat top right;
+  background: #686868 no-repeat top right;
 } 
 
 blockquote span {
   display: block;
   padding: 5px;
-  background: url(../images/rounded_br.gif) no-repeat bottom right;
+  background: #686868 no-repeat bottom right;
 }
 
 /***************************************************
@@ -219,7 +219,7 @@ blockquote span {
   padding: 0.6em 55px 0.6em 0;
   margin-right: 0.5em;
   float: right;
-  background: url(../images/logo_greenery.gif) no-repeat top right;
+  background: url(../images/logo_voidarchives.gif) no-repeat top right;
 }
 
 #title h1 {
@@ -266,7 +266,7 @@ blockquote span {
   width: 15%;  
   height:700px;
   vertical-align: top;
-  background: #FFEE00 url("../images/plants2.jpg") no-repeat top center;
+  background: #FFEE00 url("../images/cubes2.jpg") no-repeat top center;
 }
 
 /** Right column  **/
@@ -301,11 +301,11 @@ blockquote span {
 }
 
 .sideMenu a:hover {
-  background: #000000 url(../images/rounded_tl.gif) no-repeat top left;
+  background: #000000 no-repeat top left;
 }
 
 .sideMenu a:hover span {
-  background: url(../images/rounded_bl.gif) no-repeat bottom left;
+  background: #000000 no-repeat bottom left;
 }
 
 /***************************************************
@@ -315,7 +315,7 @@ blockquote span {
 #comments p {
   padding: 0 5px;
   margin-bottom: 0;
-  background: #000000 url(../images/rounded_tl.gif) no-repeat top left;
+  background: #000000 no-repeat top left;
 }
 
 #comments p span.author {
