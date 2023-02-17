@@ -1,4 +1,4 @@
-@import "../../css/screen5.css"; /* Using a string */
+@import "screen5.css"; /* Using a string */
 /**  Center Column ***/
 #image {
   float: left;
