@@ -3,7 +3,6 @@
 #image {
   float: left;
   width: 15%;  
-  height: 100%;
   vertical-align: top;
   background: #000000 url("../images/cubes2.jpg") no-repeat top center;
 }
