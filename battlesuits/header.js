@@ -1,4 +1,4 @@
-fetch("header.html")
+fetch("/Void-Archives-Honkai-Wiki/battlesuits/header.html")
   .then(response => {
     return response.text()
   })
