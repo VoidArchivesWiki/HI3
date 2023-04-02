@@ -302,32 +302,32 @@ blockquote span {
  Comment Styles
  ***************************************************/
 
-#comments p {
+#sideinfo p {
   padding: 0 5px;
   margin-bottom: 0;
   background: #000000 no-repeat top left;
 }
 
-#comments p span.author {
+#sideinfo p span.author {
   display: block;
   margin-top: 5px;
   text-align: right;
   font-weight: 700;
 }
 
-#comments img {
+#sideinfo img {
   margin-top: -1px;
 }
 
-#comments a {
+#sideinfo a {
   color: #FFEE00;
 }
 
-#comments a:visited {
+#sideinfo a:visited {
   color: #AAA;
 }
 
-#comments a:hover {
+#sideinfo a:hover {
   color: #FFF;
 }
 
