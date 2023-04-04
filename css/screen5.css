@@ -332,11 +332,11 @@ blockquote span {
 }
 
 /***************************************************
- Footer
+ FooterHI
  ***************************************************/
 
 /** No Side Pad here, unless lower percentage to account ***/ 
-#footer {
+#footerHI {
   clear: both;
   float: left;
   width: 97.5%;
@@ -344,16 +344,16 @@ blockquote span {
   padding-left:2%;
   color: #888;}
 
-#footer p {
+#footerHI p {
   padding-top: 0 !important;
   padding-top: 10px;
 }
 
-#footer a {
+#footerHI a {
   color: #888;
 }
 
-#footer a:hover {
+#footerHI a:hover {
   color: #EEE;
 }
 
