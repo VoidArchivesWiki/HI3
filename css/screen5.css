@@ -357,7 +357,7 @@ blockquote span {
   color: #EEE;
 }
 
-a.fullAhead {
+a.fullAheadHI {
   float: left;
   width: 128px;
   height: 128px;  
@@ -365,7 +365,7 @@ a.fullAhead {
   background: url(../images/logo_honkai.gif) no-repeat 0 0;
 }
 
-a:hover.fullAhead  {
+a:hover.fullAheadHI  {
   background-position: -128px 0;
 }
 
