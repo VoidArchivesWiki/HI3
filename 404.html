@@ -37,7 +37,7 @@
     <div id="text">
 	  <p></p>
 	  <font size="+2">Error 404 Page not found.</font></br>
-	  <font size="+1"><p id+"timer">.</font></p>
+	  <font size="+1"><p id="timer"></p></font>
 <script>
 var countDownDate = new Date().getTime() + 22000;
 
@@ -53,6 +53,10 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   document.getElementById("timer").innerHTML = "This page will be redirected to the Void Archives Honkai Wiki Home Page in " + seconds + " seconds ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "0";
   }
 }, 1000);
 </script>
