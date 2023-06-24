@@ -1,4 +1,4 @@
-fetch("/Void-Archives-Honkai-Wiki/music/header.html")
+fetch("/HI3/music/header.html")
   .then(response => {
     return response.text()
   })

@@ -1,4 +1,4 @@
-fetch("/Void-Archives-Honkai-Wiki/stigmata/header.html")
+fetch("/HI3/stigmata/header.html")
   .then(response => {
     return response.text()
   })
