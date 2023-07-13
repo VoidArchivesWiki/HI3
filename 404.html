@@ -27,6 +27,7 @@
       <ul>
         <li><a href="/HI3/" title="Honkai Impact 3rd Wiki">HI3 Wiki</a></li>
         <li><a href="/HSR/" title="Honkai Star Rail Wiki">HSR Wiki</a></li>
+        <li><a href="/GGZ/" title="Guns Girl Z (Houkai Gakuen 2) Wiki">GGZ Wiki</a></li>
       </ul>
       <div id="title">
         <h1>Wiki</h1>
@@ -37,7 +38,8 @@
     <div id="text">
 	  <p></p>
 	  <font size="+2">Error 404 Page not found.</font></br>
-	  <font size="+1"><p id="timer"></p></font>
+	  <p><font size="+1">This page will be redirected to the <a href="/HI3/">Void Archives Honkai Wiki Home Page</a> in </font>
+	  <font size="+1" id="timer"></font>
 <script>
 var countDownDate = new Date().getTime() + 22000;
 
@@ -52,7 +54,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("timer").innerHTML = "This page will be redirected to the Void Archives Honkai Wiki Home Page in " + seconds + " seconds. ";
+  document.getElementById("timer").innerHTML = seconds + " seconds. ";
 
   if (distance < 0) {
     clearInterval(x);
@@ -69,6 +71,9 @@ var x = setInterval(function() {
 	<h1><span>Honkai Star Rail</span></h1> 
     <sideBarSR>
     </sideBarSR>
+	<h1><span>Guns Girl Z (Houkai Gakuen 2)</span></h1> 
+    <sideBarGGZ>
+    </sideBarGGZ>
 	</div>
   </div>
 </div>
